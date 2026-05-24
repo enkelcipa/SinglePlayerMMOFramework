@@ -1,0 +1,81 @@
+# Unreal Engine
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+FileOpenOrder/
+ScriptPlugins/
+.vs/
+
+# Compiled source
+*.pdb
+*.exp
+*.lib
+*.dll
+*.exe
+*.obj
+*.o
+
+# Packaging output
+Packages/
+Dist/
+Stage/
+Archive/
+
+# Visual Studio
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docview
+.vs/
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Rider
+.idea/
+*.DotSettings.user
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+*.icloud
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+xcuserdata/
+
+# Plugin binaries (keep source, ignore compiled)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Keep these
+!Source/
+!Content/
+!Config/
+!Plugins/*/Source/
+!Plugins/*/Content/
+!Plugins/*/Config/
+!Plugins/*/Resources/
+!*.uproject
+!*.uplugin
